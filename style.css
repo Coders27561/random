@@ -1,0 +1,49 @@
+.card{
+    width: 22%;
+    padding: 10px;
+    box-shadow: 0px 0px 30px 10px black;
+    font-family: cursive;
+    margin: 100px auto;
+    height: 400px;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.card::-webkit-scrollbar{
+    background-color: pink;
+    width: 10px;
+    height: 10px;
+}
+.card::-webkit-scrollbar-corner{
+    background-color: palevioletred;
+}
+.card::-webkit-scrollbar-button{
+    background-color: palevioletred;
+}
+.card::-webkit-scrollbar-thumb{
+    background-color: palevioletred;
+    box-shadow: 0 0 30px 10px black;
+}
+.card::-webkit-scrollbar-track{
+    background-image: linear-gradient(red,pink,purple);
+}
+img{
+    /* margin-left: 100px; */
+    width: 100%;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+
+body{
+    height: 1000vh;
+
+}
+body::-webkit-scrollbar{
+    width: 60px;
+}
+body::-webkit-scrollbar-thumb{
+    background-image: url(https://www.freeiconspng.com/thumbs/pokeball-png/pokemon-ball-png-1.png);
+    background-size: cover;
+}
